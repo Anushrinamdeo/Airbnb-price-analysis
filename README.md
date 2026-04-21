@@ -58,12 +58,26 @@ A few findings stood out as genuinely business-relevant:
 
 ## Growth & Reflection
 
-This project was an early anchor in my analytical development, and I'd approach several things differently now.
+This was one of my first end-to-end data projects, and it taught me 
+things no course assignment could.
 
-Working through messy, real-world data taught me that data quality decisions are modeling decisions. Every imputation strategy, every type conversion, every dropped column is a hypothesis about what matters. Getting comfortable with that ambiguity and documenting the reasoning behind it  is a skill I've continued to build.
+Working with real listing data, inconsistent formats, missing values, and 
+columns that look clean until they aren't forced me to make judgment 
+calls that textbooks don't prepare you for. I learned that cleaning data 
+isn't a chore before the "real work" begins. It *is* the real work.
 
-If I revisited this today, I'd layer in spatial features using listing coordinates, test regularised regression (Ridge/Lasso) to handle multicollinearity in the amenity features, and cross-validate more rigorously. The OLS foundation here, though, gave me exactly what I needed at the time: interpretable output and a forcing function to understand every variable in the model.
+The OLS model gave me something I genuinely value at this stage: 
+interpretability. Every coefficient had to mean something. That 
+constraint pushed me to understand the data deeply rather than throw 
+features at a model and hope for accuracy.
 
+If I built this again today, I'd test regularised regression to handle 
+correlated amenity features, and bring in spatial data using listing 
+coordinates. The instinct to reach for those tools came directly from 
+doing this project the simpler way first.
+
+I'm early in my analytical journey — but I'm building it on a foundation 
+of understanding, not just execution.
 ---
 
 ## Data Source
