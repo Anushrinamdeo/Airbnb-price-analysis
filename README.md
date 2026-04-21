@@ -76,7 +76,7 @@ correlated amenity features, and bring in spatial data using listing
 coordinates. The instinct to reach for those tools came directly from 
 doing this project the simpler way first.
 
-I'm early in my analytical journey — but I'm building it on a foundation 
+I'm early in my analytical journey but I'm building it on a foundation 
 of understanding, not just execution.
 ---
 
